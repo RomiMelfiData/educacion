@@ -1,2 +1,4 @@
+# Educacion — Dependencias del ETL de Indicadores Educativos
+# Autora: Romina Melfi
 pandas>=2.0.0
 numpy>=1.24.0

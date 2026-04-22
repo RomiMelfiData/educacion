@@ -1,4 +1,4 @@
-# MelfiData 📊
+# Educacion 📊
 
 **Tablero de Indicadores Educativos para Escuelas Privadas de Argentina**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## ¿Qué es MelfiData?
+## ¿Qué es Educacion?
 
-MelfiData es un pipeline de datos + tablero Power BI que transforma los datos abiertos del Ministerio de Educación de la Nación en indicadores accionables para directivos de escuelas privadas.
+Educacion es un pipeline de datos + tablero Power BI que transforma los datos abiertos del Ministerio de Educación de la Nación en indicadores accionables para directivos de escuelas privadas.
 
 Permite ver — de forma simple y visual — cómo está el sector privado en términos de:
 
@@ -26,15 +26,15 @@ Todo desagregado por **provincia**, **departamento**, **sector** (Privado/Estata
 ## Estructura del repositorio
 
 ```
-melfidata/
+educacion/
 ├── src/
 │   └── etl_indicadores.py     # Script ETL principal
 ├── data/
 │   ├── raw/                   # Archivos originales del Ministerio (no se suben al repo)
 │   └── processed/             # CSVs limpios generados por el ETL
 ├── docs/
-│   ├── MelfiData_Brief.docx       # Product brief del proyecto
-│   └── MelfiData_Bitacora.docx    # Registro de decisiones
+│   ├── Educacion_Brief.docx       # Product brief del proyecto
+│   └── Educacion_Bitacora.docx    # Registro de decisiones
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -60,8 +60,8 @@ Todos los datos son **públicos y abiertos**, publicados por el Ministerio de Ed
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/melfidata.git
-cd melfidata
+git clone https://github.com/TU_USUARIO/educacion.git
+cd educacion
 ```
 
 ### 2. Instalar dependencias
